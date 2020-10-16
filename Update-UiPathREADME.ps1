@@ -62,7 +62,7 @@ function Update-UiPathREADME {
             $Md += "`n#### Description"
             $Md += "`n"+ $XAML.Activity.Sequence.'Annotation.AnnotationText'
             
-            $Md += "`n### Arguments"
+            $Md += "`n#### Arguments"
             $Md += "`n| Argument | Description | Type |"
             $Md += "`n| --- | --- | --- |"
             foreach ($argument in $xaml.Activity.Members.Property) {
