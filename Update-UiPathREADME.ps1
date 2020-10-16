@@ -23,7 +23,12 @@ function Update-UiPathREADME {
     .EXAMPLE
     Update-UiPathKKReadme C:\UiPath\UiPath-Library1 test.md
     Uses project directory C:\UiPath\UiPath-Library1 and outputs to test.md
-    
+
+    .NOTES
+    NAME: Update-UiPathREADME
+    AUTHOR: Jesper Jeansson, Kalmar Kommun
+    LASTEDIT: den 16 oktober 2020 15:26:51
+    KEYWORDS: UiPath, Markdown
     #>
     [CmdletBinding()]
     param (
